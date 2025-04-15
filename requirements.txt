@@ -1,0 +1,32 @@
+# Toxic Comment Classification Project – Requirements
+# =================================================
+# Python version: >=3.8
+#
+# To install:
+#   python -m venv venv
+#   source venv/bin/activate    # or .\venv\Scripts\activate on Windows
+#   pip install -r requirements.txt
+#
+# After install:
+#   python -m spacy download en_core_web_md
+#   import nltk; nltk.download('stopwords')
+
+# === Core Libraries ===
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.3
+seaborn>=0.11.2
+tqdm>=4.62.0
+joblib>=1.0.1
+
+# === NLP and Preprocessing ===
+nltk>=3.6.3
+spacy>=3.1.3
+wordcloud>=1.8.1
+
+# === Machine Learning ===
+scikit-learn>=1.0.2
+
+# === spaCy language model (to install manually) ===
+# After installing the packages, run:
+#   python -m spacy download en_core_web_md
